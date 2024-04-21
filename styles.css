@@ -1,0 +1,239 @@
+/* Basic Styles */
+* {
+  margin:20px;
+  padding:0;
+  box-sizing: border-box;
+}
+.container {
+  display: inline;
+}
+.about-content {
+  max-width: 460px;
+
+}
+
+#get-started {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.resources-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resources-list li {
+  margin-bottom: 20px;
+}
+
+.resources-list iframe {
+  max-width: 100%; /* Ensure iframes don't exceed container width */
+}
+
+.about-image {
+  max-width: 460px;
+  justify-content: flex-end;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FBF2E6;
+}
+a{
+  text-decoration: none;
+  color:#000;
+}
+
+iframe {
+  padding:30px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px; /* Adjust the width of the logo */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 20px; /* Add some space between logo and heading */
+}
+
+.head {
+  margin: 0; /* Remove default margin */
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-left: 20px; /* Add some space between navigation items */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333; /* Adjust link color */
+}
+
+.heading {
+  font-size: 6.0rem;
+  color:orangered;
+  margin:0 auto;
+  width:60%;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+.hero-subtitle{
+  font-size: 2.0rem;
+  color: orangered;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 40px ;
+}
+
+.article-resource-heading {
+  margin:0 auto;
+  font-size: 2.5rem;
+  color: darkblue;
+  text-align: center;
+}
+.section-heading {
+  font-size: 2.5rem;
+  color: darkblue;
+  margin:20px;
+
+}
+.section-content {
+  font-size: 1.2rem;
+  margin:20px;
+}
+#about {
+  text-align: center; /* Center-align the content */
+}
+
+.section-heading {
+  margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.about-content {
+  display: inline-block; /* Display the paragraph as inline-block */
+  vertical-align: middle; /* Align the paragraph vertically */
+  margin-right: 20px; /* Add some space between paragraph and image */
+  font-size: x-large;
+}
+
+.about-image {
+  max-width: 400px; /* Ensure image does not exceed container width */
+  vertical-align: middle; /* Align the image vertically */
+}
+
+.subheading{
+  text-decoration: underline;
+}
+
+.article-resources {
+  margin-top: 40px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  width: 48%; /* Adjust the width to leave space for margins */
+  margin-bottom: 20px;
+}
+
+.article {
+  text-align: center;
+}
+
+.article img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  margin-top: 10px;
+}
+
+
+#contact {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.section-heading {
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 768px) {
+  header nav {
+    flex-direction: row; /* Stack elements vertically on small screens */
+    align-items: flex-start; /* Align navigation links to the left */
+  }
+
+  .logo {
+    margin-bottom: 10px; /* Add some space between logo and nav on small screens */
+  }
+}
