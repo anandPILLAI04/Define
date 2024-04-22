@@ -8,6 +8,10 @@ Here's a template for a README.md file for your Discord bot GitHub repository:
 
 This Discord bot allows users to send any information to be fact-checked using the Gemini API. The bot sends an API call to the Gemini service to check whether the input is misinformation or not. The output is then returned in a particular format that can be viewed by the user on Discord.
 
+## Demo
+
+<img width="793" alt="Screenshot 2024-04-22 at 19 11 47" src="https://github.com/anandPILLAI04/Define/assets/129036732/311df13f-ad9e-49a7-afa8-aad4e8e49830">
+
 ## Features
 
 - **Fact-Checking**: Users can send any information to the bot for fact-checking.
